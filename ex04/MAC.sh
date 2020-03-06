@@ -1,0 +1,1 @@
+ifconfig -a | grep -w ether | sed -e 's/ether//; s/[[:space:]]//g'
